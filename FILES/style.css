@@ -20,10 +20,24 @@ img{
 /* header */
 header{
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/banner-bg.jpg) center/cover no-repeat fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../pics/background.jpg) center/cover no-repeat fixed;
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+}
+.header2{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../pics/fam.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.header3{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../pics/collection.jpg) center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: screen;
 }
 .navbar{
     background: rgba(0, 0, 0, 0.6);
@@ -256,7 +270,7 @@ header{
 /* footer */
 footer{
     background: var(--exDark);
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 2rem 0;
 }
@@ -285,6 +299,7 @@ footer{
     color: var(--exDark);
 }
 .footer span{
+    color: black;
     margin-top: 1rem;
     display: block;
     font-family: var(--Playfair);
