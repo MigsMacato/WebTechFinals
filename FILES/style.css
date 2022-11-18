@@ -209,6 +209,12 @@ header{
 .blog-img{
     position: relative;
 }
+.blog-img img{
+    transition:  all 0.5s ease;
+}
+.blog-img:hover img{
+    transform: scale(1.2);
+}
 .blog-img span{
     position: absolute;
     bottom: 10px;
